@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context=".fragment.content.InputStsFragment">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="128dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Введите номер свидетельства о регистрации транспортного средства" />
+
+
+
+    <EditText
+        android:id="@+id/stsET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_marginTop="64dp"
+        android:ems="10"
+        android:maxLength="10"
+        android:background="@drawable/default_background"
+        android:inputType="textCapCharacters"
+        android:hint="99 AA XXXXXX"
+        android:gravity="center"
+        android:layout_gravity="center" />
+
+</LinearLayout>
